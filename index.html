@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="./css/reset.css">
+        <link rel="stylesheet" href="./css/estilos.css">
+        <link rel="stylesheet" href="./css/flexbox.css">
+        <title>VidFlow</title>
+        <link rel="shortcut icon" href="./img/Favicon.png" type="image/x-icon">
+    </head>
+
+<body>
+    <header>
+        <nav class="cabecalho__container">
+
+            <div class="logo__item">
+                <img src="./img/VidFlow--Logo-light-mode.png" alt="Logo do VidFlow">
+            </div>
+
+            <div class="cabecalho__pesquisa__item">
+                <form class="form__pesquisa">
+                    <input type="search" class="pesquisar__input" placeholder="Pesquisar">
+                    <img src="./img/topbar/keyboard.png" alt="icone de teclado" class="pesquisar__input-teclado">
+                    <button class="pesquisar__btn">
+                    <img src="./img/topbar/search.png" alt="icone de lupa">
+                </button>
+
+                <button class="cabecalho__audio">
+                    <img src="./img/topbar/Mic.png" alt="icone de microfone">
+                </button>
+                </form>
+
+            </div>
+
+            <div class="cabecalho__icones__item">
+                <a href="#" class="cabecalho__videos"></a>
+                <a href="#" class="cabecalho__apps"></a>
+                <a href="#" class="cabecalho__notificacoes"></a>
+                <a href="#" class="cabecalho__avatar"></a>
+                <label class="cabecalho__switch">
+                    <input type="checkbox" class="cabecalho__switch-input">
+                    <span class="cabecalho__switch-slider"></span>
+                </label>                
+            </div>
+        </nav>
+    </header>
+
+    <section class="corpo__menu-lateral">
+
+        <div class="corpo__menu-link">
+            <a href="#" class="menu__link-item"> <img src="./img/sidebar/home.png" alt="icone início" class="menu__link-logo"><p>Início</p></a>
+            <a href="#" class="menu__link-item"> <img src="./img/sidebar/explore.png" alt="icone explorar" class="menu__link-logo"><p>Explorar</p></a>
+            <a href="#" class="menu__link-item"> <img src="./img/sidebar/airplay.png" alt="icone shorts" class="menu__link-logo"><p>Shorts</p></a>
+            <a href="#" class="menu__link-item"> <img src="./img/sidebar/subscriptions.png" alt="icone inscrições" class="menu__link-logo"><p>Inscrições</p></a>
+            <p class="menu-link__borda"></p>            
+        </div>
+
+        <div>
+            <a href="#" class="menu__link-item"> <img src="img/sidebar/history.png" alt="icone histórico" class="menu__link-logo"><p>Histórico</p></a>
+            <a href="#" class="menu__link-item"> <img src="img/sidebar/history_toggle_off.png" alt="icone relógio" class="menu__link-logo"><p>Assistir mais tarde</p></a>
+            <a href="#" class="menu__link-item"> <img src="img/sidebar/thumb_up_alt.png" alt="icone like" class="menu__link-logo"><p>Marcados com like</p></a>
+            <p class="menu-link__borda"></p>            
+        </div>
+
+        <h2 class="corpo__menu-titulo">INSCRIÇÕES</h2>
+
+        <div>
+            <a href="#" class="menu__link-item"> <img src="./img/sidebar/Avatar_Alura.png" alt="icone alura" class="menu-link__ava"><p>Alura</p></a>
+            <a href="#" class="menu__link-item"> <img src="./img/sidebar/Avatar_Gaveta.png" alt="icone gaveta" class="menu-link__ava"><p>Gaveta</p></a>
+            <a href="#" class="menu__link-item"> <img src="./img/sidebar/Avatar_Rafa.png" alt="icone Rafaella" class="menu-link__ava"><p>Rafaella Ballerini</p></a>
+            <a href="#" class="menu__link-item"> <img src="./img/sidebar/Avatar_Atila.png" alt="icone Átila" class="menu__link-ava"><p>Átila Iamarino</p></a>
+            <a href="#" class="menu__link-item"> <img src="./img/sidebar/Avatar_Souto.png" alt="icone Mario" class="menu__link-ava"><p>Mario Souto</p></a>
+            <a href="#" class="menu__link-item"> <img src="./img/sidebar/Avatar_Jovem_Nerd.png" alt="icone nerd" class="menu__link-ava"><p>Jovem nerd</p></a>
+            <a href="#" class="menu__link-item"> <img src="./img/sidebar/Avatar_Deschamps.png" alt="icone Felipe" class="menu__link-ava"><p>Felipe Deschamps</p></a>
+            <a href="#" class="menu__link-item"> <img src="./img/sidebar/keyboard_arrow_down.png" alt="icone seta pra baixo" class="menu__link-ava-logo"><p>Mostrar mais 2</p></a>
+            
+            <p class="menu-link__borda"></p>            
+        </div>
+        
+        <h2 class="corpo__menu-titulo">MAIS DA PÁGINA</h2>
+
+        <div>
+            <a href="#" class="menu__link-item"> <img src="./img/sidebar/ondemand_video.png" alt="icone alura" class="menu__link-logo"><p>Vídeo Premium</p></a>
+            <a href="#" class="menu__link-item"> <img src="./img/sidebar/movie.png" alt="icone gaveta" class="menu__link-logo"><p>Filmes</p></a>
+            <a href="#" class="menu__link-item"> <img src="./img/sidebar/sports_esports.png" alt="icone Rafaella" class="menu__link-logo"><p>Jogos</p></a>
+        </div>
+    </section>
+
+    <section class="superior__secao__container">
+        <div class="superior__secao_container-wrapper">
+            <a href="#" name="Tudo" class="superior__item">Tudo</a>
+            <a href="#" name="Debates" class="superior__item">Debates</a>
+            <a href="#" name="Ao vivo" class="superior__item">Ao vivo</a>
+            <a href="#" name="Podcasts" class="superior__item">Podcasts</a>
+            <a href="#" name="Front-end" class="superior__item">Front-end</a>
+            <a href="#" name="Mobile" class="superior__item">Mobile</a>
+            <a href="#" name="Data Science" class="superior__item">Data Science</a>
+            <a href="#" name="Apps" class="superior__item">Apps</a>
+            <a href="#" name="Programação" class="superior__item">Programação</a>
+            <a href="#" name="Inteligência Artificial" class="superior__item">Inteligência Artificial</a>
+            <a href="#" name="Inovação" class="superior__item">Inovação</a>
+        </div>
+            <label class="superior__slider">
+                <span><img src="./img/arrow_forward_ios.png" alt="Flecha direcionada para a direita"></span>
+            </label>
+
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
+
+
+https://cursos.alura.com.br/forum/topico-sugestao-resolvendo-desafio-372269
